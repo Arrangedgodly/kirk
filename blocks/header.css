@@ -1,0 +1,18 @@
+.header {
+  background: linear-gradient(#4A0A77, #AB51E3);
+  text-align: center;
+  min-height: 15vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.header__title {
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  margin: 5vh auto 5vh auto;
+}

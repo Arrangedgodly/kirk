@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fugaz+One&family=Rock+Salt&display=swap');
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/footer.css");
+
+/*
+
+Color Palette:
+(Ranging from light to dark)
+
+#310055
+#3C0663
+#4A0A77
+#5A108F
+#6818A5
+#8B2FC9
+#AB51E3
+#BD68EE
+#D283FF
+#DC97FF
+
+Font Styles:
+
+font-family: 'Fascinate', cursive;
+bubbly text but smooth
+
+font-family: 'Fugaz One', cursive;
+most used text for fonts on the site
+
+font-family: 'Rock Salt', cursive;
+handwritten font
+
+*/

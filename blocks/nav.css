@@ -1,0 +1,19 @@
+.nav {
+  margin: auto;
+  width: 100%;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 2vh;
+}

@@ -9,12 +9,27 @@
 
 .icon_spotify {
   filter: invert(54%) sepia(90%) saturate(415%) hue-rotate(89deg) brightness(89%) contrast(91%);
+  transform: filter .4s ease-in-out;
+}
+
+.icon_spotify:hover {
+  filter: invert(75%) sepia(96%) saturate(425%) hue-rotate(73deg) brightness(92%) contrast(95%);
 }
 
 .icon_soundcloud {
   filter: invert(63%) sepia(82%) saturate(4078%) hue-rotate(358deg) brightness(99%) contrast(109%);
+  transform: filter .4s ease-in-out;
+}
+
+.icon_soundcloud:hover {
+  filter: invert(78%) sepia(48%) saturate(5098%) hue-rotate(339deg) brightness(102%) contrast(98%);
 }
 
 .icon_youtube {
   filter: invert(21%) sepia(95%) saturate(7463%) hue-rotate(357deg) brightness(92%) contrast(120%);
+  transform: filter .4s ease-in-out;
+}
+
+.icon_youtube:hover {
+  filter: invert(56%) sepia(96%) saturate(3956%) hue-rotate(333deg) brightness(108%) contrast(101%);
 }

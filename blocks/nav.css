@@ -13,7 +13,13 @@
 }
 
 .nav__icon {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin-bottom: 2vh;
+  filter: invert(58%) sepia(40%) saturate(7383%) hue-rotate(216deg) brightness(100%) contrast(94%);
+  transition: filter .5s ease-in-out;
+}
+
+.nav__icon:hover {
+  filter: invert(73%) sepia(89%) saturate(2241%) hue-rotate(157deg) brightness(95%) contrast(101%);
 }

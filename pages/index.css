@@ -3,12 +3,17 @@
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/nav.css");
+@import url("../blocks/cards.css");
+@import url("../blocks/card.css");
+@import url("../blocks/icon.css");
 @import url("../blocks/footer.css");
 
 /*
 
 Color Palette:
 (Ranging from light to dark)
+
+Purples:
 
 #310055
 #3C0663
@@ -20,6 +25,13 @@ Color Palette:
 #BD68EE
 #D283FF
 #DC97FF
+
+Contradictory:
+
+#26C5F3
+#3EABF4
+#5591F5
+#6D77F6
 
 Font Styles:
 

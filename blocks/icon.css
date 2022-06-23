@@ -1,0 +1,20 @@
+.icon {
+  transform: scale(1);
+  transition: transform .3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.25);
+}
+
+.icon_spotify {
+  filter: invert(54%) sepia(90%) saturate(415%) hue-rotate(89deg) brightness(89%) contrast(91%);
+}
+
+.icon_soundcloud {
+  filter: invert(63%) sepia(82%) saturate(4078%) hue-rotate(358deg) brightness(99%) contrast(109%);
+}
+
+.icon_youtube {
+  filter: invert(21%) sepia(95%) saturate(7463%) hue-rotate(357deg) brightness(92%) contrast(120%);
+}

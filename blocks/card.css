@@ -9,6 +9,7 @@
   height: 600px;
   background-image: linear-gradient(#8B2FC9, #310055);
   border-radius: 40px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .card__image {

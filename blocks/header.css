@@ -13,7 +13,7 @@
 
 .header__title {
   font-family: 'Foxbot';
-  font-size: 100px;
+  font-size: 7.81vw;
   color: #fff;
   text-shadow: 3px 3px 5px #000;
   margin: 3vh auto 2vh auto;
@@ -21,4 +21,10 @@
 
 .header__title-span {
   color: #BD68EE;
+}
+
+@media screen and (max-width: 720px) {
+  .header__title {
+    font-size: 14vw;
+  }
 }

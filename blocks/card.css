@@ -110,6 +110,10 @@
     font-size: 6vw;
   }
 
+  .card__desc {
+    font-size: 4vw;
+  }
+
   .card__image-wrapper {
     width: 70vw;
     height: 70vw;

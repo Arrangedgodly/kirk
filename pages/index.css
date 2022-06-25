@@ -8,6 +8,12 @@
 @import url("../blocks/icon.css");
 @import url("../blocks/footer.css");
 
+@font-face {
+  font-family: 'Foxbot';
+  src: url("../vendor/fonts/Foxbot/Foxbot.otf") format('opentype'),
+      url("../vendor/fonts/Foxbot/Foxbot.ttf") format('truetype');
+}
+
 /*
 
 Color Palette:

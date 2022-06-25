@@ -12,8 +12,13 @@
 }
 
 .header__title {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Foxbot';
+  font-size: 100px;
   color: #fff;
-  text-shadow: 2px 2px 3px #000;
-  margin: 5vh auto 5vh auto;
+  text-shadow: 3px 3px 5px #000;
+  margin: 3vh auto 2vh auto;
+}
+
+.header__title-span {
+  color: #BD68EE;
 }

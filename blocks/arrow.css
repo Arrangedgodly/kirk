@@ -2,23 +2,23 @@
   position: fixed;
   top: 250px;
   filter: invert(67%) sepia(71%) saturate(3321%) hue-rotate(224deg) brightness(101%) contrast(103%);
-  right: 100px;
-  width: 150px;
+  right: 5vw;
+  width: 10vw;
   animation: arrowDown 2s ease-in-out infinite;
 }
 
 .arrow_alt {
-  left: 100px;
+  left: 5vw;
 }
 
 @keyframes arrowDown {
   0% {
-    top: 250px;
+    top: 30vh;
     filter: invert(67%) sepia(71%) saturate(3321%) hue-rotate(224deg) brightness(101%) contrast(103%);
     opacity: 1;
   }
   100% {
-    top: 500px;
+    top: 80vh;
     filter: invert(12%) sepia(93%) saturate(4838%) hue-rotate(274deg) brightness(78%) contrast(95%);
     opacity: 0;
   }

@@ -17,9 +17,9 @@ function createCard(data) {
   const cardYoutube = data.youtube;
   cardElementHeader.textContent = cardTitle;
   cardElementRelease.textContent = `Released: ${ cardRelease}`;
-  cardElementSoundcloud.setAttribute("src", cardSoundcloud);
-  cardElementSpotify.setAttribute("src", cardSpotify);
-  cardElementYoutube.setAttribute("src", cardYoutube);
+  cardElementSoundcloud.setAttribute("href", cardSoundcloud);
+  cardElementSpotify.setAttribute("href", cardSpotify);
+  cardElementYoutube.setAttribute("href", cardYoutube);
   cardElementImage.setAttribute("src", cardImage);
   cardElementImage.setAttribute("alt",`Single Cover for ${cardTitle}`);
   return cardElement;

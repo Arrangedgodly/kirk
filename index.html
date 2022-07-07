@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/card.js" defer></script>
   </head>
   <main class="page">
     <header class="header">
@@ -76,138 +78,53 @@
     </header>
     <body>
       <div class="cards">
-        <div class="card">
-          <div class="card__image-wrapper">
-            <div class="card__image-cover">
-              <h3 class="card__title">RAGER IN THE GRAVE</h3>
-              <p class="card__desc">Released:<br>June 5th, 2022</p>
+        <template id="card">
+          <div class="card">
+            <div class="card__image-wrapper">
+              <div class="card__image-cover">
+                <h3 class="card__title">RAGER IN THE GRAVE</h3>
+                <p class="card__desc">Released:<br>June 5th, 2022</p>
+              </div>
+              <img
+                src="./images/rager.png"
+                alt="rager in the grave cover"
+                class="card__image"
+              />
             </div>
-            <img
-              src="./images/rager.png"
-              alt="rager in the grave cover"
-              class="card__image"
-            />
+            <ul class="card__links">
+              <a
+                href="https://soundcloud.com/maytrax/rager-in-the-grave-freestyle"
+                class="card__link card__link_soundcloud"
+              >
+                <img
+                  src="./images/soundcloud.svg"
+                  alt="soundcloud icon"
+                  class="card__link-icon icon icon_soundcloud"
+                />
+              </a>
+              <a
+                href="https://open.spotify.com/track/1uiIMo9hS3W133kN8vpPgP?si=f1899536c8974a63"
+                class="card__link card__link_spotify"
+              >
+                <img
+                  src="./images/spotify.svg"
+                  alt="spotify icon"
+                  class="card__link-icon icon icon_spotify"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=UAtdOHf8Vog"
+                class="card__link card__link_youtube"
+              >
+                <img
+                  src="./images/youtube.svg"
+                  alt="youtube icon"
+                  class="card__link-icon icon icon_youtube"
+                />
+              </a>
+            </ul>
           </div>
-          <ul class="card__links">
-            <a
-              href="https://soundcloud.com/maytrax/rager-in-the-grave-freestyle"
-              class="card__link"
-            >
-              <img
-                src="./images/soundcloud.svg"
-                alt="soundcloud icon"
-                class="card__link-icon icon icon_soundcloud"
-              />
-            </a>
-            <a
-              href="https://open.spotify.com/track/1uiIMo9hS3W133kN8vpPgP?si=f1899536c8974a63"
-              class="card__link"
-            >
-              <img
-                src="./images/spotify.svg"
-                alt="spotify icon"
-                class="card__link-icon icon icon_spotify"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=UAtdOHf8Vog"
-              class="card__link"
-            >
-              <img
-                src="./images/youtube.svg"
-                alt="youtube icon"
-                class="card__link-icon icon icon_youtube"
-              />
-            </a>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="card__image-wrapper">
-            <div class="card__image-cover">
-              <h3 class="card__title">DRiP DRiP</h3>
-              <p class="card__desc">Released:<br>March 11th, 2022</p>
-            </div>
-            <img
-              src="./images/dripdrip.png"
-              alt="drip drip cover"
-              class="card__image"
-            />
-          </div>
-          <ul class="card__links">
-            <a
-              href="https://soundcloud.com/maytrax/rager-in-the-grave-freestyle"
-              class="card__link"
-            >
-              <img
-                src="./images/soundcloud.svg"
-                alt="soundcloud icon"
-                class="card__link-icon icon icon_soundcloud"
-              />
-            </a>
-            <a
-              href="https://open.spotify.com/track/1uiIMo9hS3W133kN8vpPgP?si=f1899536c8974a63"
-              class="card__link"
-            >
-              <img
-                src="./images/spotify.svg"
-                alt="spotify icon"
-                class="card__link-icon icon icon_spotify"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=s19Bb9KZ_OM"
-              class="card__link"
-            >
-              <img
-                src="./images/youtube.svg"
-                alt="youtube icon"
-                class="card__link-icon icon icon_youtube"
-              />
-            </a>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="card__image-wrapper">
-            <div class="card__image-cover">
-              <h3 class="card__title">SOME DAZE</h3>
-              <p class="card__desc">Released:<br>January 1st, 2022</p>
-            </div>
-            <img
-              src="./images/somedaze.jpeg"
-              alt="some daze cover"
-              class="card__image"
-            />
-          </div>
-          <ul class="card__links">
-            <a
-              href="https://soundcloud.com/maytrax/drip-drip"
-              class="card__link"
-            >
-              <img
-                src="./images/soundcloud.svg"
-                alt="soundcloud icon"
-                class="card__link-icon icon icon_soundcloud"
-              />
-            </a>
-            <a
-              href="https://open.spotify.com/track/3dpR0s4GOitveeIS0Lms5v?si=7ed8973408664d37"
-              class="card__link"
-            >
-              <img
-                src="./images/spotify.svg"
-                alt="spotify icon"
-                class="card__link-icon icon icon_spotify"
-              />
-            </a>
-            <a href="https://youtu.be/D5CDTO14po0" class="card__link">
-              <img
-                src="./images/youtube.svg"
-                alt="youtube icon"
-                class="card__link-icon icon icon_youtube"
-              />
-            </a>
-          </ul>
-        </div>
+        </template>
       </div>
       <img
         src="./images/angle-down.svg"

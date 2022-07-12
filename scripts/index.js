@@ -25,11 +25,19 @@ let initialCards = [
   },
   {
     name: "SLVR SURFER",
-    release: "July 6th, 2022",
-    soundcloud: "https://soundcloud.com/maytrax",
+    release: "July 5th, 2022",
+    soundcloud: "https://soundcloud.com/maytrax/slvr-surfer",
     spotify: "https://open.spotify.com/album/7AgdpR3ievOolUcHsOzHdg?si=XxkxLPAwQI-mX9PippWCtA",
     youtube: "https://youtu.be/A4Ks_XceN24",
     image: "./images/slvr.png"
+  },
+  {
+    name: "GRIPPY SOCKS",
+    release: "July 7th, 2022",
+    soundcloud: "https://soundcloud.com/maytrax/grippy-socks",
+    spotify: "https://open.spotify.com/track/1XROZ9XZUDDPX8MPEtB9kL?si=3977cb802c7244a2",
+    youtube: "https://www.youtube.com/watch?v=9ezXL2W85hU",
+    image: "./images/grippy.jpg"
   }
   /*
   {

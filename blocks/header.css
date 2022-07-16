@@ -19,12 +19,47 @@
   margin: 3vh auto 2vh auto;
 }
 
+.header__title_background {
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulsate 3s ease-in-out infinite;
+}
+
 .header__title-span {
-  color: #BD68EE;
+  animation: lavanderFlow 1s linear infinite alternate;
 }
 
 @media screen and (max-width: 720px) {
   .header__title {
     font-size: 12vw;
+  }
+}
+
+@keyframes lavanderFlow {
+  0% {
+    color: #AB51E3;
+  }
+  50% {
+    color: #BD68EE;
+  }
+  100% {
+    color: #D283FF;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(2.25);
+    opacity: 0;
   }
 }

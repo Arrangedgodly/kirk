@@ -4,7 +4,7 @@
   filter: invert(67%) sepia(71%) saturate(3321%) hue-rotate(224deg) brightness(101%) contrast(103%);
   right: 5vw;
   width: 10vw;
-  animation: arrowDown 2s ease-in-out infinite;
+  animation: arrowDown 2s ease-in-out 3 forwards;
 }
 
 .arrow_alt {

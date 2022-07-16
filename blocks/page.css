@@ -1,3 +1,7 @@
+html::-webkit-scrollbar {
+  width: 0;
+}
+
 .page {
   margin: 0;
   background: linear-gradient(#310055, #000);
